@@ -4,6 +4,7 @@ from typing import List
 
 app = FastAPI(
     title = "My Newly Fast API App",
+    
 )
 
 @app.get("/") 
