@@ -9,7 +9,7 @@ app = FastAPI(
 )
 
 # Creating a Data Model
-
+class
 
 @app.get("/") 
 async def root(): 
