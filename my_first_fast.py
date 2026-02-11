@@ -8,7 +8,7 @@ app = FastAPI(
     version = "1.0.0" 
 )
 
-# Data Model
+# Creating a Data Model
 
 @app.get("/") 
 async def root(): 
