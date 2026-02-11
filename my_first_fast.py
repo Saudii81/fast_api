@@ -10,6 +10,7 @@ app = FastAPI(
 
 # Creating a Data Model
 
+
 @app.get("/") 
 async def root(): 
     return {"message": "Hello World"}
