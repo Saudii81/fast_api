@@ -11,6 +11,7 @@ app = FastAPI(
 # Creating a Data Model
 class Todo(BaseModel):
     id: int
+    title = str
 
 @app.get("/") 
 async def root(): 
