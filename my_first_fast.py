@@ -12,6 +12,7 @@ app = FastAPI(
 class Todo(BaseModel):
     id: int
     title = str
+    
 
 @app.get("/") 
 async def root(): 
