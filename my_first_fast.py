@@ -12,7 +12,7 @@ app = FastAPI(
 class Todo(BaseModel):
     id: int
     title = str
-    
+    completed: bool = 
 
 @app.get("/") 
 async def root(): 
