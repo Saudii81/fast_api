@@ -14,7 +14,7 @@ class Todo(BaseModel):
     title = str
     completed: bool = False
 
-
+todo: List[Todo] = []
 
 @app.get("/") 
 async def root(): 
