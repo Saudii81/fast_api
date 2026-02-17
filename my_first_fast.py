@@ -14,7 +14,7 @@ class Todo(BaseModel):
     title = str
     completed: bool = False
 
-# In-Memorydtabase
+# In-Memory database
 todo: List[Todo] = []
 
 @app.get("/") 
