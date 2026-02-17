@@ -14,6 +14,8 @@ class Todo(BaseModel):
     title = str
     completed: bool = False
 
+
+
 @app.get("/") 
 async def root(): 
     return {"message": "Hello World"}
