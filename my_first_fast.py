@@ -19,6 +19,6 @@ todo: List[Todo] = []
 
 # HOme route
 @app.get("/") 
-async def root(): 
+async def home(): 
     return {"message": "Hello World"}
 
