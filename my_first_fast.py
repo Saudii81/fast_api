@@ -17,6 +17,8 @@ class Todo(BaseModel):
 # In-Memory database
 todo: List[Todo] = []
 
+# HOme route
+
 @app.get("/") 
 async def root(): 
     return {"message": "Hello World"}
