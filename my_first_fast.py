@@ -18,7 +18,6 @@ class Todo(BaseModel):
 todo: List[Todo] = []
 
 # HOme route
-
 @app.get("/") 
 async def root(): 
     return {"message": "Hello World"}
