@@ -20,5 +20,8 @@ todo: List[Todo] = []
 # HOme route
 @app.get("/") 
 async def home(): 
-    return {"message": "Hello World"}
+    return {
+        "message": "Hello to my First FastAPI App!",
+        "docs": "/docs" 
+        }
 
