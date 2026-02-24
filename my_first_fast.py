@@ -26,4 +26,4 @@ async def home():
         }
 
 # todo get one todo
-@app.get
+@app.get("/todo/{todo_id}")
