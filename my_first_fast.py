@@ -27,4 +27,5 @@ async def home():
 
 # todo get one todo
 @app.get("/todo/{todo_id}")
-def get_todo(todo_id: int)
+def get_todo(todo_id: int):
+    for todo in todos:
