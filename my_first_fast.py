@@ -27,6 +27,7 @@ async def home():
 
 # get all todos
 @app.get("/todo")
+def get_todos():
 
 # todo get one todo
 @app.get("/todo/{todo_id}")
