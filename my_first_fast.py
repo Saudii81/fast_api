@@ -15,7 +15,7 @@ class Todo(BaseModel):
     completed: bool = False
 
 # In-Memory database
-todo: List[Todo] = []
+todos: List[Todo] = []
 
 # HOme route
 @app.get("/") 
