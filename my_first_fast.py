@@ -30,4 +30,4 @@ async def home():
 def get_todo(todo_id: int):
     for todo in todos:
         if todo in todo.id == todo:
-            return
+            return 
